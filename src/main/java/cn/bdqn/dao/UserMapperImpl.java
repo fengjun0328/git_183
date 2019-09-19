@@ -8,4 +8,9 @@ public class UserMapperImpl implements  UserMapper {
     public void show() {
         System.out.println("这个是测试！");
     }
+
+    @Override
+    public void find() {
+        System.out.println("");
+    }
 }
